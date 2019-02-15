@@ -13,50 +13,85 @@
     <h1>Curriculum Vitae</h1>
   </header>
   <body>
-    <h2>Datos Personales</h2>
-      <h3>Nombres: Gonzalo Eduardo</h3>
-      <h3>Apellidos: Cardin Román</h3>
-      <h3>Fecha de Nacimiento: 26/12/2001</h3>
-      <h3>Lugar de Nacimiento: Argentina, Parana, Entre Ríos</h3>
-    <h2>Menú</h2>
-      <a href="index.html">Inicio</a> | <a href="educacion.html">Educación</a> | <a href="experiencia.html">Experiencia</a>
-    <h2>Educación</h2>
-    <table border="1">
-      <thead>
-        <tr>
-          <td>Año</td>
-          <td>Institución</td>
-          <td>Lugar</td>
-          <td>Culmino</td>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2008-2014</td>
-          <td>La Salle Jobson-Escuela Primaria</td>
-          <td>Santa Fe, Argentina</td>
-          <td>Si</td>
-        </tr>
-        <tr>
-          <td>2014-2019</td>
-          <td>La Salle Jobson-Escuela Secundaria</td>
-          <td>Santa Fe, Argeninta</td>
-          <td>No</td>
-        </tr>
-        <tr>
-          <td>2010-2016</td>
-          <td>Institución de Ingles Adivce</td>
-          <td>Santa Fe, Argentina</td>
-          <td>Si</td>
-        </tr>
-        <tr>
-          <td>Julio 2018</td>
-          <td>Intercambio en Brigthon Language Collage</td>
-          <td>Brigthon, United Kingdom</td>
-          <td>Si</td>
-        </tr>
-      </tbody>
-    </table>
-    
+    <section>
+      <h2>Datos Personales</h2>
+        <h3>Nombres: Gonzalo Eduardo</h3>
+        <h3>Apellidos: Cardin Román</h3>
+        <h3>Fecha de Nacimiento: 26/12/2001</h3>
+        <h3>Lugar de Nacimiento: Argentina, Parana, Entre Ríos</h3>
+    </section>
+    <nav>
+      <h2>Menú</h2>
+        <a href="index.html">Inicio</a> | <a href="educacion.html">Educación</a> | <a href="experiencia.html">Experiencia</a>
+    </nav>
+    <section>
+      <h2>Educación</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <td>Año</td>
+              <td>Institución</td>
+              <td>Lugar</td>
+              <td>Culmino</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2008-2014</td>
+              <td>La Salle Jobson-Escuela Primaria</td>
+              <td>Santa Fe, Argentina</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2014-2019</td>
+              <td>La Salle Jobson-Escuela Secundaria</td>
+              <td>Santa Fe, Argeninta</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>2010-2016</td>
+              <td>Institución de Ingles Adivce</td>
+              <td>Santa Fe, Argentina</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>Julio 2018</td>
+              <td>Intercambio en Brigthon Language Collage</td>
+              <td>Brigthon, United Kingdom</td>
+              <td>Si</td>
+            </tr>
+          </tbody>
+        </table>
+      <h2>Agregar Estudios:</h2>
+        <form>
+          <label for="year"><strong>Año:</strong></label>
+            <select>
+              <option value="1">2018</option>
+              <option value="1">2017</option>
+              <option value="1">2016</option>
+              <option value="1">2015</option>
+              <option value="1">2014</option>
+              <option value="1">2013</option>
+              <option value="1">2012</option>
+              <option value="1">2011</option>
+              <option value="1">2010</option>
+            </select>
+          <br>
+          <label for="Insituto"><strong>Insitución:</strong></label>
+            <input type="text" name="Instituto" required placeholder="Ej: Harvard">
+          <br>
+          <label for="Lugar"><strong>Lugar:</strong></label>
+           <textarea name="Lugar" rows="2" cols="20"></textarea>
+          <br>
+          <label for="Enviar">Enviar</label>
+            <input type="submit" name="Enviar">
+        </form>
+    </section>
   </body>
+  <footer>
+    <h2>Contacto:</h2>
+      <a href="mailto:goncardin@gmail.com?subject=feedback">Correo Electrónico</a> | <a href="https://www.instagram.com/gonzacardin/?hl=es-la" target="_blank">Instagram</a> | <a href="https://www.facebook.com/Gonzacardin?ref=bookmarks" target="_blank">Facebook</a>
+      <p><strong>Telfono:</strong> +543425950414</p>
+      <p><strong>Dirección:</strong> San Jerónimo 2542 Piso 11, Santa Fe, Argentina</p>
+  </footer>
 </html>
